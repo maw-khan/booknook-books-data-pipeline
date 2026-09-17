@@ -91,7 +91,7 @@ The project was designed to demonstrate the ability to:
 ---
 
 # 🗄️ Project Summary
-![Summary](docs/BookNook Recap 1 Pager.pdf)
+![Summary](results/Summary.png)
 
 # 🗄️ Database Architecture
 
