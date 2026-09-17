@@ -90,6 +90,9 @@ The project was designed to demonstrate the ability to:
 
 ---
 
+# 🗄️ Project Summary
+![Summary](docs/BookNook Recap 1 Pager.pdf)
+
 # 🗄️ Database Architecture
 
 The BookNook database consists of four core relational tables:
