@@ -293,6 +293,7 @@ by the third recorded day.
 
 The time-series visualization provides a simple view of how order-line value changes across the available dates.
 
+![Line Chart](results/1_line_chart.png)
 ---
 
 ## 2. Revenue by Category
@@ -305,6 +306,8 @@ The time-series visualization provides a simple view of how order-line value cha
 | Mystery    |       9.50 |  8.5% |
 
 Fiction represents the largest share of the analyzed line value.
+
+![Bar Chart](results/2_bar_chart.png)
 
 ---
 
@@ -334,6 +337,8 @@ with an average of:
 22.39
 ```
 
+![Histogram](results/4_histogram.png)
+
 ---
 
 ## 4. Unit Price vs Quantity
@@ -348,6 +353,8 @@ Each point represents an order line.
 This provides a visual way to explore whether different price levels appear alongside different order quantities.
 
 Because the analytical dataset contains only five observations, this visualization demonstrates the analytical technique rather than supporting a strong statistical conclusion.
+
+![Scatter Plot](results/5_scatter_plot.png)
 
 ---
 
@@ -379,6 +386,8 @@ The resulting category values remain:
 * Children's — 15.00
 * Mystery — 9.50
 
+![Bar](results/7_bar_plot.png)
+
 ### Business Interpretation
 
 **Fiction generates the largest share of BookNook's analyzed line value.**
@@ -407,6 +416,8 @@ adds category information to the visualization, allowing the same price-versus-q
 
 **The price-versus-quantity view shows how order behavior differs across BookNook's categories, while the small sample limits the strength of any relationship claim.**
 
+![Scatter](results/8_scatter.png)
+
 ---
 
 # 🧇 Waffle Chart — Revenue Share
@@ -427,6 +438,8 @@ Mystery        8.5%
 **Fiction accounts for more than half of the analyzed line value, while the remaining categories make up the other 42.0%.**
 
 The Waffle chart provides an alternative to a traditional percentage chart and makes category composition easy to interpret at a glance.
+
+![Waffle](results/9_waffle_chart.png)
 
 ---
 
@@ -466,6 +479,8 @@ booknook_customer_map.html
 ```
 
 The HTML file can be opened in a web browser to explore the customer distribution interactively.
+
+![Map](results/10_folium_map.png)
 
 ---
 
