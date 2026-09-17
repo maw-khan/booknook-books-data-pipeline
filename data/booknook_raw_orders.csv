@@ -1,0 +1,6 @@
+order_ref,customer_email,order_date,status
+B4001,layla.khan@example.com,2024-09-01,Completed
+B4002,omer.siddiqui@example.com,09/02/2024,Completed
+B4003,hina.malik@example.com,2024-09-03,Pending
+B4004,ghost.reader@example.com,2024-09-04,Completed
+B4005,sara.ahmed@example.com,,Completed
