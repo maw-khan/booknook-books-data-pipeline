@@ -91,7 +91,7 @@ The project was designed to demonstrate the ability to:
 ---
 
 # 🗄️ Project Summary
-![Summary](results/Summary.png)
+![Summary](results/Summry.png)
 
 # 🗄️ Database Architecture
 
