@@ -799,3 +799,16 @@ Business Insights
 The project combines database engineering, ETL, analytical programming, statistical analysis, visualization, and data storytelling into a single reproducible workflow.
 
 It provides a practical demonstration of how Python and PostgreSQL can be used together to transform raw operational data into structured, analyzable, and understandable information.
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Ali Waris Khan**
+
+
+--
+
+⭐ If you found this project useful, consider giving the repository a **star**!
+
+© 2026 Muhammad Ali Waris Khan. All rights reserved.
