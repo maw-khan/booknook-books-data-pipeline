@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a2f8bd59d9a0e8ee0bc7e619809beaff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a2f8bd59d9a0e8ee0bc7e619809beaff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a2f8bd59d9a0e8ee0bc7e619809beaff = L.map(
+                "map_a2f8bd59d9a0e8ee0bc7e619809beaff",
+                {
+                    center: [33.6844, 73.0479],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4515e53ad41e6f355355f22f8524568c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4515e53ad41e6f355355f22f8524568c.addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+            var circle_marker_4c83387f4936fc85a00b5c75e43b6802 = L.circleMarker(
+                [33.6989, 73.0369],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_88dc158639aa995b3f08697316e328eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67c6cb23f6b88437f68f2da5eda978ca = $(`<div id="html_67c6cb23f6b88437f68f2da5eda978ca" style="width: 100.0%; height: 100.0%;">Islamabad: 5 customers</div>`)[0];
+                popup_88dc158639aa995b3f08697316e328eb.setContent(html_67c6cb23f6b88437f68f2da5eda978ca);
+            
+        
+
+        circle_marker_4c83387f4936fc85a00b5c75e43b6802.bindPopup(popup_88dc158639aa995b3f08697316e328eb)
+        ;
+
+        
+    
+    
+            circle_marker_4c83387f4936fc85a00b5c75e43b6802.bindTooltip(
+                `<div>
+                     Islamabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_55d0ee01a1c5c6ab4a1586292a340d9a = L.circleMarker(
+                [31.5497, 74.3436],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_16ba58c3089495354fc01ffb5243c837 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9ed9dfd4a5abda87ecf7aba8126b0bf = $(`<div id="html_e9ed9dfd4a5abda87ecf7aba8126b0bf" style="width: 100.0%; height: 100.0%;">Lahore: 4 customers</div>`)[0];
+                popup_16ba58c3089495354fc01ffb5243c837.setContent(html_e9ed9dfd4a5abda87ecf7aba8126b0bf);
+            
+        
+
+        circle_marker_55d0ee01a1c5c6ab4a1586292a340d9a.bindPopup(popup_16ba58c3089495354fc01ffb5243c837)
+        ;
+
+        
+    
+    
+            circle_marker_55d0ee01a1c5c6ab4a1586292a340d9a.bindTooltip(
+                `<div>
+                     Lahore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1ad69e3a17c6655f48ba3b76c5c56bc = L.circleMarker(
+                [24.86, 67.01],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_b78b1841e851bf5892d85f8b272b46e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd458df239fa388c854e5b27e27f32e = $(`<div id="html_1cd458df239fa388c854e5b27e27f32e" style="width: 100.0%; height: 100.0%;">Karachi: 3 customers</div>`)[0];
+                popup_b78b1841e851bf5892d85f8b272b46e3.setContent(html_1cd458df239fa388c854e5b27e27f32e);
+            
+        
+
+        circle_marker_e1ad69e3a17c6655f48ba3b76c5c56bc.bindPopup(popup_b78b1841e851bf5892d85f8b272b46e3)
+        ;
+
+        
+    
+    
+            circle_marker_e1ad69e3a17c6655f48ba3b76c5c56bc.bindTooltip(
+                `<div>
+                     Karachi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8070538ea8c1a146e90b20d87e9a8aab = L.circleMarker(
+                [34.0144, 71.5675],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_b3d604b32ab102c9abf24913dcc000cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cacfc8af4315e7b19dfff6bb0012330 = $(`<div id="html_8cacfc8af4315e7b19dfff6bb0012330" style="width: 100.0%; height: 100.0%;">Peshawar: 2 customers</div>`)[0];
+                popup_b3d604b32ab102c9abf24913dcc000cb.setContent(html_8cacfc8af4315e7b19dfff6bb0012330);
+            
+        
+
+        circle_marker_8070538ea8c1a146e90b20d87e9a8aab.bindPopup(popup_b3d604b32ab102c9abf24913dcc000cb)
+        ;
+
+        
+    
+    
+            circle_marker_8070538ea8c1a146e90b20d87e9a8aab.bindTooltip(
+                `<div>
+                     Peshawar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17cef53c08f523051361541ae7b55046 = L.circleMarker(
+                [30.1978, 71.4711],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_aa01f2a4036e2d3ae4feb6af66a896a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0843ef86f4c7f538520874e387885cb = $(`<div id="html_c0843ef86f4c7f538520874e387885cb" style="width: 100.0%; height: 100.0%;">Multan: 2 customers</div>`)[0];
+                popup_aa01f2a4036e2d3ae4feb6af66a896a0.setContent(html_c0843ef86f4c7f538520874e387885cb);
+            
+        
+
+        circle_marker_17cef53c08f523051361541ae7b55046.bindPopup(popup_aa01f2a4036e2d3ae4feb6af66a896a0)
+        ;
+
+        
+    
+    
+            circle_marker_17cef53c08f523051361541ae7b55046.bindTooltip(
+                `<div>
+                     Multan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f2587bd317c03c7df2801ecfccefae6 = L.circleMarker(
+                [33.6007, 73.0679],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_c50546072f7f22030942f0bce416a4c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba3b08033ac7e340630dfc8f0dc0e99 = $(`<div id="html_dba3b08033ac7e340630dfc8f0dc0e99" style="width: 100.0%; height: 100.0%;">Rawalpindi: 2 customers</div>`)[0];
+                popup_c50546072f7f22030942f0bce416a4c5.setContent(html_dba3b08033ac7e340630dfc8f0dc0e99);
+            
+        
+
+        circle_marker_5f2587bd317c03c7df2801ecfccefae6.bindPopup(popup_c50546072f7f22030942f0bce416a4c5)
+        ;
+
+        
+    
+    
+            circle_marker_5f2587bd317c03c7df2801ecfccefae6.bindTooltip(
+                `<div>
+                     Rawalpindi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1059fba99a93a05cc1909a8c03a1a5c2 = L.circleMarker(
+                [31.418, 73.079],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_6dd2db859310d7b95c30f2aa3b5bfd34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6273a4a64ab5478de237c88d8bebe70 = $(`<div id="html_f6273a4a64ab5478de237c88d8bebe70" style="width: 100.0%; height: 100.0%;">Faisalabad: 1 customers</div>`)[0];
+                popup_6dd2db859310d7b95c30f2aa3b5bfd34.setContent(html_f6273a4a64ab5478de237c88d8bebe70);
+            
+        
+
+        circle_marker_1059fba99a93a05cc1909a8c03a1a5c2.bindPopup(popup_6dd2db859310d7b95c30f2aa3b5bfd34)
+        ;
+
+        
+    
+    
+            circle_marker_1059fba99a93a05cc1909a8c03a1a5c2.bindTooltip(
+                `<div>
+                     Faisalabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2baaf2281d3e370bc8032af1b7467359 = L.circleMarker(
+                [30.1958, 67.0172],
+                {"bubblingMouseEvents": true, "color": "#1F4E79", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1F4E79", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_a2f8bd59d9a0e8ee0bc7e619809beaff);
+        
+    
+        var popup_8cd12bb285e1f54678a3daa34b766235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4f5b77040f80bf4a4fbf63e2af30cc4 = $(`<div id="html_a4f5b77040f80bf4a4fbf63e2af30cc4" style="width: 100.0%; height: 100.0%;">Quetta: 1 customers</div>`)[0];
+                popup_8cd12bb285e1f54678a3daa34b766235.setContent(html_a4f5b77040f80bf4a4fbf63e2af30cc4);
+            
+        
+
+        circle_marker_2baaf2281d3e370bc8032af1b7467359.bindPopup(popup_8cd12bb285e1f54678a3daa34b766235)
+        ;
+
+        
+    
+    
+            circle_marker_2baaf2281d3e370bc8032af1b7467359.bindTooltip(
+                `<div>
+                     Quetta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
